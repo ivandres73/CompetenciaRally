@@ -8,7 +8,6 @@ import javax.swing.JTextField;
 public class Menu extends javax.swing.JFrame {
     
     Random x = new Random();
-    boolean repeat = true;
     
     public void Revolver() {
         Global.caracteres = Global.juego.caracteres;
@@ -200,6 +199,7 @@ public class Menu extends javax.swing.JFrame {
     private void AlAzarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlAzarActionPerformed
         Visible();
         Revolver();
+        boolean repeat = true;
         for(int i = 0; i < Global.caraud.length; i++){
             while(repeat){
                 repeat = false;
