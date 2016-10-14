@@ -10,7 +10,6 @@ public class Juego extends javax.swing.JFrame {
     char cara[] = new char[] {'~', '{', '#', '@', '*', '?', '>', '<', '&', '\\', '}', ';', '"', '\'', '^', '/', '|', '-', '`', '$'};
     char caraud[] = new char[] {};
     Random x = new Random();
-    boolean repeat = true;
     
     public Juego() {
         initComponents();
